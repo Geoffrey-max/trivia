@@ -1,7 +1,10 @@
 import {Game} from './game';
+import { ExportedMath } from './implementations/ExportedMath'
 
 export class GameRunner {
     public static main(): void {
+
+        let Math = new ExportedMath();
         const game = new Game();
         game.add("Chet");
         game.add("Pat");

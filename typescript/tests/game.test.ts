@@ -8,7 +8,7 @@ describe('The test environment', () => {
     });
 
     it("should access game", function () {
+        
         expect(GameRunner).to.not.be.undefined;
     });
-
 });
